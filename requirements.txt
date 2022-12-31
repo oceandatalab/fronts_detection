@@ -1,0 +1,7 @@
+# Use official repository
+-i https://pypi.python.org/simple/
+
+Numpy
+Scipy
+netCDF4
+numba

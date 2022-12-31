@@ -1,0 +1,4 @@
+compare_fronts ~/src/fronts_detection/params_validation.py --out_pickle=/tmp --input_sec=/mnt/data/front_data_pickle/json/2019/09/seviri_sst_woc_t1_20190925T210000.pyo --input_main='/mnt/data/front_data_pickle/json/2019/09/seviri_sst_woc_t1_20190925T220000.pyo'
+validate_fronts ~/src/fronts_detection/params_validation.py --out_pickle=/tmp --input_fronts=/mnt/data/front_data_pickle/json/2019/09/seviri_sst_woc_t1_20190925T110000.pyo --input_syntool='/home/lgaultier/Downloads/syntool-shapes-2021-06-20T16_44_28.695Z.json' --gradient_threshold=0.05
+detect_fronts /home/lgaultier/src/fronts_detection/examples/params_seviri.py --input_file=/mnt/data/satellite/SEVIRI/20200104070000-OSISAF-L3C_GHRSST-SSTsubskin-SEVIRI_SST-ssteqc_meteosat11_20200104_070000-v02.0-fv01.0.nc  --out_pickle=/tmp/test
+
